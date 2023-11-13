@@ -38,13 +38,6 @@ License URL: http://scripts.sil.org/OFL
 Source: https://rsms.me/
 -- End of Inter Font credits --
 
-Work Sans Font
-Copyright 2019 The Work Sans Project Authors (https://github.com/weiweihuanghuang/Work-Sans) 
-This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL 
-License URL: http://scripts.sil.org/OFL 
-Source: http://weiweihuanghuang.github.io/
--- End of Work Sans Font credits --
-
 
 HeroIcons
 icons in the assets folder are fom heroicons:
@@ -67,3 +60,10 @@ Source: https://unsplash.com/
 
 https://wordpress.org/plugins/animations-for-blocks/
 https://wordpress.org/plugins/safe-svg/
+
+Barlow Font
+Copyright 2017 The Barlow Project Authors (https://github.com/jpt/barlow) 
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL 
+License URL: http://scripts.sil.org/OFL 
+Source: https://tribby.com/
+-- End of Barlow Font credits --
