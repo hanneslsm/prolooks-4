@@ -1,8 +1,5 @@
 /* Editor Styles
 --------------------------------------------- */
-strong {
-  font-weight: 600;
-}
 
 /* Differentiate the title to make clear it's not a block */
 .edit-post-visual-editor__post-title-wrapper {
