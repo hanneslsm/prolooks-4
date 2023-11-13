@@ -3,9 +3,9 @@
 * --------------------------------------------- */
 
 .blur-x-dim {
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-  }
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
 
 .blur-dim {
   backdrop-filter: blur(8px);
