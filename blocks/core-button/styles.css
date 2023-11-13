@@ -14,12 +14,9 @@
 .wp-block-button__link {
   transition: all 0.2s ease;
 
-  /* remove the flashing from currentColor */
-  outline: 0px solid var(--wp--preset--color--c-moderate);
-
   &:hover {
-    //  background-color: var(--wp--preset--color--c-moderate) !important;
-    outline: 3px solid var(--wp--preset--color--c-moderate);
+    // background-color: var(--wp--preset--color--c-moderate) !important;
+    box-shadow: inset 0px 0px 0px 1px var(--wp--preset--color--d-contrast);
   }
 }
 
@@ -36,8 +33,7 @@
 
   &:hover {
     background-color: var(--wp--preset--color--d-strong) !important;
-    outline: none;
-    box-shadow: inset 0px 0px 0px 1px var(--wp--preset--color--d-contrast);
+    box-shadow: inset 0px 0px 0px 1px var(--wp--preset--color--c-strong);
   }
 }
 
@@ -49,6 +45,6 @@
 
   &:hover {
     background-color: var(--wp--preset--color--d-strong) !important;
-    outline: none;
+    box-shadow: none;
   }
 }
