@@ -1,0 +1,17 @@
+/**  Utility Classes: Blur
+* @since ProLooks 4
+* --------------------------------------------- */
+
+.blur-small {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+.blur-medium {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.blur-large {
+  backdrop-filter: blur(32px);
+  -webkit-backdrop-filter: blur(32px);
+}
