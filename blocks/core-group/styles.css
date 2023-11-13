@@ -1,0 +1,10 @@
+/* Group
+* @since ProLooks 3
+--------------------------------------------- */
+
+.is-style-group-hover-shadow {
+  transition: box-shadow 0.2s ease-in-out;
+  &:hover {
+    box-shadow: var(--wp--preset--shadow--small);
+  }
+}

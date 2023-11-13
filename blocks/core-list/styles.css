@@ -1,0 +1,28 @@
+/* List
+* @since ProLooks 3
+--------------------------------------------- */
+
+/**
+* Default
+*/
+ul {
+  box-sizing: content-box;
+}
+
+/**
+ * Variations
+ */
+ul.is-style-list-checkmark {
+  list-style-type: "\2713";
+
+  & li {
+    padding-inline-start: 1ch;
+  }
+}
+
+ul.is-style-list-crossmark {
+  list-style-type: "\2717";
+  & li {
+    padding-inline-start: 1ch;
+  }
+}
