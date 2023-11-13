@@ -23,24 +23,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* HELPER CLASSES */
-
-/*
-** Breakpoints
-*/
-@media (max-width: 600px) {
-  .hide-on-mobile {
-    display: none !important;
-    border: 3px solid red;
-  }
-}
-@media (min-width: 600px) {
-  .hide-on-desktop {
-    display: none !important;
-    border: 3px solid red;
-  }
-}
-
 /*
 ** UX Bug fixes
 */
@@ -49,34 +31,6 @@ html {
 .underline-none a {
   text-decoration: underline dotted !important;
 }
-
-/*
-** Line-breaks
-*/
-.nowrap {
-  white-space: nowrap;
-}
-
-/*
-** Rotation
-*/
-.rotate-plus-3 {
-  transform: rotate(3deg);
-}
-.rotate-minus-2 {
-  transform: rotate(-2deg);
-}
-
-/*
-** Text balance
-*/
-.balance {
-  text-wrap: balance;
-}
-
-/*
-** Design helper classes
-*/
 
 /*
 ** Label
