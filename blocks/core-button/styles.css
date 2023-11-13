@@ -13,10 +13,11 @@
 .wp-element-button,
 .wp-block-button__link {
   transition: all 0.2s ease;
-
+  box-shadow: var(--wp--preset--shadow--small);
   &:hover {
     // background-color: var(--wp--preset--color--c-moderate) !important;
-    box-shadow: inset 0px 0px 0px 1px var(--wp--preset--color--d-contrast);
+    box-shadow: inset 0px 0px 0px 1px var(--wp--preset--color--d-contrast),
+      var(--wp--preset--shadow--medium);
   }
 }
 
@@ -29,11 +30,13 @@
   box-sizing: border-box;
   color: var(--wp--preset--color--d-contrast) !important;
   background-color: var(--wp--preset--color--d-x-strong) !important;
-  box-shadow: inset 0px 0px 0px 1px var(--wp--preset--color--d-dim);
+  box-shadow: inset 0px 0px 0px 1px var(--wp--preset--color--d-dim),
+    var(--wp--preset--shadow--x-small);
 
   &:hover {
     background-color: var(--wp--preset--color--d-strong) !important;
-    box-shadow: inset 0px 0px 0px 1px var(--wp--preset--color--c-strong);
+    box-shadow: inset 0px 0px 0px 1px var(--wp--preset--color--c-strong),
+      var(--wp--preset--shadow--small);
   }
 }
 
@@ -42,9 +45,10 @@
   background-color: transparent !important;
   text-decoration: underline;
   color: var(--wp--preset--color--c-strong);
+  box-shadow: none;
 
   &:hover {
     background-color: var(--wp--preset--color--d-strong) !important;
-    box-shadow: none;
+    box-shadow: var(--wp--preset--shadow--small);
   }
 }
