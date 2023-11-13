@@ -608,11 +608,11 @@
       "link": {
         ":hover": {
           "color": {
-            "text": "var(--wp--preset--color--c-strong)"
+            "text": "var(--wp--preset--color--c-x-strong)"
           }
         },
         "color": {
-          "text": "var(--wp--preset--color--c-dim)"
+          "text": "var(--wp--preset--color--c-strong)"
         },
         "typography": {
           "textDecoration": "none"
