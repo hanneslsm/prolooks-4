@@ -38,6 +38,13 @@ License URL: http://scripts.sil.org/OFL
 Source: https://rsms.me/
 -- End of Inter Font credits --
 
+Barlow Font
+Copyright 2017 The Barlow Project Authors (https://github.com/jpt/barlow) 
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL 
+License URL: http://scripts.sil.org/OFL 
+Source: https://tribby.com/
+-- End of Barlow Font credits --
+
 
 HeroIcons
 icons in the assets folder are fom heroicons:
@@ -61,9 +68,3 @@ Source: https://unsplash.com/
 https://wordpress.org/plugins/animations-for-blocks/
 https://wordpress.org/plugins/safe-svg/
 
-Barlow Font
-Copyright 2017 The Barlow Project Authors (https://github.com/jpt/barlow) 
-This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL 
-License URL: http://scripts.sil.org/OFL 
-Source: https://tribby.com/
--- End of Barlow Font credits --
