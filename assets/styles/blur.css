@@ -2,17 +2,22 @@
 * @since ProLooks 4
 * --------------------------------------------- */
 
-.blur-small {
+.blur-x-dim {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
+.blur-dim {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
 
-.blur-medium {
+.blur-moderate {
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
 }
 
-.blur-large {
+.blur-strong {
   backdrop-filter: blur(32px);
   -webkit-backdrop-filter: blur(32px);
 }
