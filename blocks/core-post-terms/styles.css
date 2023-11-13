@@ -9,7 +9,7 @@
       padding: 0.5ex 2ex;
       background-color: var(--wp--preset--color--b-3);
       border-radius: 1em;
-      color: var(--wp--preset--color--b-0-contrast);
+      color: var(--wp--preset--color--b-0);
       transition: all 0.2s ease;
     }
     & a:hover {
@@ -23,7 +23,7 @@
       padding: 0.5ex 2ex;
       border: 1px solid var(--wp--preset--color--b-4);
       border-radius: 1em;
-      color: var(--wp--preset--color--b-0-contrast);
+      color: var(--wp--preset--color--b-0);
       transition: all 0.2s ease;
     }
     & a:hover {
