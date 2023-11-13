@@ -7,13 +7,13 @@
     & a {
       font-size: var(--wp--preset--font-size--small);
       padding: 0.5ex 2ex;
-      background-color: var(--wp--preset--color--b-3);
+      background-color: var(--wp--preset--color--b-moderate);
       border-radius: 1em;
-      color: var(--wp--preset--color--b-0);
+      color: var(--wp--preset--color--b-contrast);
       transition: all 0.2s ease;
     }
     & a:hover {
-      background-color: var(--wp--preset--color--b-4);
+      background-color: var(--wp--preset--color--b-dim);
     }
   }
 
@@ -21,13 +21,13 @@
     & a {
       font-size: var(--wp--preset--font-size--small);
       padding: 0.5ex 2ex;
-      border: 1px solid var(--wp--preset--color--b-4);
+      border: 1px solid var(--wp--preset--color--b-dim);
       border-radius: 1em;
-      color: var(--wp--preset--color--b-0);
+      color: var(--wp--preset--color--b-contrast);
       transition: all 0.2s ease;
     }
     & a:hover {
-      background-color: var(--wp--preset--color--b-3);
+      background-color: var(--wp--preset--color--b-moderate);
     }
   }
 
