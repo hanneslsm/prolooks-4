@@ -6,18 +6,20 @@
  * Default, but not variantions
  */
 .wp-block-button:not([class*="is-style-"]) > .wp-block-button__link,
-.wp-block-button.is-style-fill > .wp-block-button__link {
+.wp-block-button.is-style-default > .wp-block-button__link {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 .wp-element-button,
 .wp-block-button__link {
-  transition: all 0.1s ease-in-out;
+  transition: all 0.2s ease;
 
   /* remove the flashing from currentColor */
-  outline-color: var(--wp--preset--color--d-moderate);
+  outline: 0px solid var(--wp--preset--color--c-moderate);
+
   &:hover {
-    background-color: var(--wp--preset--color--c-dim) !important;
+    //  background-color: var(--wp--preset--color--c-moderate) !important;
+    outline: 3px solid var(--wp--preset--color--c-moderate);
   }
 }
 
@@ -25,18 +27,21 @@
  * Variations
  */
 
-.is-style-button-border .wp-block-button__link {
+.is-style-button-secondary .wp-block-button__link {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-sizing: border-box;
-  color: var(--wp--preset--color--c-dim) !important;
+  color: var(--wp--preset--color--d-contrast) !important;
   background-color: var(--wp--preset--color--d-x-strong) !important;
-  box-shadow: inset 0px 0px 0px 1px;
+  box-shadow: inset 0px 0px 0px 1px var(--wp--preset--color--d-dim);
 
   &:hover {
     background-color: var(--wp--preset--color--d-strong) !important;
+    outline: none;
+    box-shadow: inset 0px 0px 0px 1px var(--wp--preset--color--d-contrast);
   }
 }
 
-.is-style-button-ghost .wp-block-button__link {
+.is-style-button-tertiary .wp-block-button__link {
   box-sizing: border-box;
   color: var(--wp--preset--color--c-dim) !important;
   background-color: transparent !important;
@@ -44,5 +49,6 @@
 
   &:hover {
     background-color: var(--wp--preset--color--b-moderate) !important;
+    outline: none;
   }
 }

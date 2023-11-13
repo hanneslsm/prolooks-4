@@ -488,10 +488,10 @@
     "blocks": {
       "core/button": {
         "border": {
-          "radius": "0.5em"
+          "radius": "4px"
         },
         "color": {
-          "background": "var(--wp--preset--color--c-dim)",
+          "background": "var(--wp--preset--color--c-strong)",
           "text": "var(--wp--preset--color--c-contrast)"
         },
         "elements": {

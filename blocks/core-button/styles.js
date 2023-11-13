@@ -6,11 +6,11 @@
  * Register block styles
  */
 wp.blocks.registerBlockStyle("core/button", {
-  name: "button-border",
-  label: "Border",
+  name: "button-secondary",
+  label: "Secondary",
 });
 
 wp.blocks.registerBlockStyle("core/button", {
-  name: "button-ghost",
-  label: "Ghost",
+  name: "button-tertiary",
+  label: "Tertiary",
 });
