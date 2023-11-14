@@ -9,7 +9,7 @@ ul.is-style-page-list-plain {
   list-style: none;
   padding-inline-start: 0px;
   & a {
-    color: var(--wp--preset--color--a-moderate);
+    color: var(--wp--preset--color--a-default);
   }
   & a:hover {
     color: var(--wp--preset--color--c-strong);

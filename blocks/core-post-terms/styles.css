@@ -7,7 +7,7 @@
     & a {
       font-size: var(--wp--preset--font-size--small);
       padding: 0.5ex 2ex;
-      background-color: var(--wp--preset--color--b-moderate);
+      background-color: var(--wp--preset--color--b-default);
       border-radius: 1em;
       color: var(--wp--preset--color--b-contrast);
       transition: all 0.2s ease;
@@ -27,7 +27,7 @@
       transition: all 0.2s ease;
     }
     & a:hover {
-      background-color: var(--wp--preset--color--b-moderate);
+      background-color: var(--wp--preset--color--b-default);
     }
   }
 

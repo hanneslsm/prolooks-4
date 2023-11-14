@@ -36,7 +36,7 @@ ul {
       aspect-ratio: 1/1;
       height: 1.5em;
       content: "\203A"; /* chevron */
-      color: var(--wp--preset--color--a-x-dim);
+      color: var(--wp--preset--color--a-dimmer);
       font-weight: 400;
       font-size: 1.2em;
     }
