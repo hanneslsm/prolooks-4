@@ -44,7 +44,7 @@
   box-sizing: border-box;
   background-color: transparent !important;
   text-decoration: underline;
-  color: var(--wp--preset--color--c-strong);
+  color: var(--wp--preset--color--c-strong) !important;
   box-shadow: none;
 
   &:hover {
