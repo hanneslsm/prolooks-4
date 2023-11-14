@@ -5,4 +5,5 @@
 /* Reset to 1px */
 .wp-block-separator {
   border-top: none;
+  width: 100%;
 }
