@@ -94,7 +94,7 @@
           "slug": "c-strong"
         },
         {
-          "color": "#91968A",
+          "color": "#81867A",
           "name": "c-default",
           "slug": "c-default"
         },
@@ -104,7 +104,7 @@
           "slug": "c-dim"
         },
         {
-          "color": "#B3B8AD",
+          "color": "#91968A",
           "name": "c-dimmer",
           "slug": "c-dimmer"
         },
@@ -114,7 +114,7 @@
           "slug": "d-contrast"
         },
         {
-          "color": "#FAFAFA",
+          "color": "#A3A79D",
           "name": "d-stronger",
           "slug": "d-stronger"
         },
