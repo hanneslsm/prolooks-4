@@ -571,14 +571,14 @@
       },
       "h2": {
         "typography": {
-          "fontSize": "2.488rem",
-          "lineHeight": "1.4"
+          "fontSize": "clamp(2.074rem, 1.556rem + 1.294vw, 2.488rem)",
+          "lineHeight": "1.2"
         }
       },
       "h3": {
         "typography": {
           "fontSize": "2.074rem",
-          "lineHeight": "1.4"
+          "lineHeight": "1.2"
         }
       },
       "h4": {
@@ -613,9 +613,6 @@
         },
         "color": {
           "text": "var(--wp--preset--color--c-strong)"
-        },
-        "typography": {
-          "textDecoration": "none"
         }
       }
     },
