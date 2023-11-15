@@ -28,14 +28,15 @@
 .is-style-button-secondary .wp-block-button__link {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-sizing: border-box;
-  color: var(--wp--preset--color--d-contrast) !important;
+
+  color: var(--wp--preset--color--c-stronger) !important;
   background-color: var(--wp--preset--color--d-stronger) !important;
-  box-shadow: inset 0px 0px 0px 1px var(--wp--preset--color--d-dim),
+  box-shadow: inset 0px 0px 0px 1px var(--wp--preset--color--c-stronger),
     var(--wp--preset--shadow--x-small);
 
   &:hover {
-    background-color: var(--wp--preset--color--d-strong) !important;
-    box-shadow: inset 0px 0px 0px 1px var(--wp--preset--color--c-strong),
+    background-color: var(--wp--preset--color--d-default) !important;
+    box-shadow: inset 0px 0px 0px 1px var(--wp--preset--color--c-default),
       var(--wp--preset--shadow--small);
   }
 }
