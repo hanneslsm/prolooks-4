@@ -15,7 +15,11 @@
   transition: all 0.2s ease;
   box-shadow: var(--wp--preset--shadow--small);
   &:hover {
-    // background-color: var(--wp--preset--color--c-default) !important;
+    background: linear-gradient(
+      180deg,
+      var(--wp--preset--color--c-default) 0%,
+      var(--wp--preset--color--c-strong) 100%
+    );
     box-shadow: inset 0px 0px 0px 1px var(--wp--preset--color--d-contrast),
       var(--wp--preset--shadow--medium);
   }
@@ -30,12 +34,16 @@
   box-sizing: border-box;
 
   color: var(--wp--preset--color--c-stronger) !important;
-  background-color: var(--wp--preset--color--d-stronger) !important;
+  background: var(--wp--preset--color--d-stronger);
   box-shadow: inset 0px 0px 0px 1px var(--wp--preset--color--c-stronger),
     var(--wp--preset--shadow--x-small);
 
   &:hover {
-    background-color: var(--wp--preset--color--d-default) !important;
+    background: linear-gradient(
+      180deg,
+      var(--wp--preset--color--d-stronger) 0%,
+      var(--wp--preset--color--d-default) 100%
+    );
     box-shadow: inset 0px 0px 0px 1px var(--wp--preset--color--c-default),
       var(--wp--preset--shadow--small);
   }
@@ -43,13 +51,18 @@
 
 .is-style-button-tertiary .wp-block-button__link {
   box-sizing: border-box;
-  background-color: transparent !important;
+  background: transparent;
   text-decoration: underline;
-  color: var(--wp--preset--color--c-strong) !important;
+  color: var(--wp--preset--color--c-strong);
   box-shadow: none;
 
   &:hover {
-    background-color: var(--wp--preset--color--d-strong) !important;
-    box-shadow: var(--wp--preset--shadow--small);
+    background: linear-gradient(
+      180deg,
+      var(--wp--preset--color--d-stronger) 0%,
+      var(--wp--preset--color--d-default) 100%
+    );
+    box-shadow: inset 0px 0px 0px 1px var(--wp--preset--color--c-dimmer),
+      var(--wp--preset--shadow--small);
   }
 }
