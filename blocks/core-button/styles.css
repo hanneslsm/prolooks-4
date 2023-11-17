@@ -19,6 +19,7 @@
  * Default
  */
 .is-style-button-primary .wp-block-button__link {
+  background-color: var(--wp--preset--color--c-strong);
   box-shadow: var(--wp--preset--shadow--small);
   &:hover {
     background: linear-gradient(
