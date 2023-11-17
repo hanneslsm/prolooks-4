@@ -490,17 +490,7 @@
         "border": {
           "radius": "4px"
         },
-        "color": {
-          "background": "var(--wp--preset--color--c-strong)",
-          "text": "var(--wp--preset--color--c-contrast)"
-        },
-        "elements": {
-          "link": {
-            "color": {
-              "text": "var(--wp--preset--color--c-contrast)"
-            }
-          }
-        },
+
         "typography": {
           "lineHeight": "1.2"
         }
@@ -569,7 +559,7 @@
           "radius": "0.5em"
         },
         "color": {
-          "background": "var(--wp--preset--color--c-dim)",
+          "background": "var(--wp--preset--color--c-default)",
           "text": "var(--wp--preset--color--c-contrast)"
         }
       },

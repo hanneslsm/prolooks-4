@@ -12,8 +12,15 @@
 
 .wp-element-button,
 .wp-block-button__link {
-  transition: all 0.2s ease;
+  transition: none;
+}
+
+/**
+ * Default
+ */
+.is-style-default .wp-block-button__link {
   box-shadow: var(--wp--preset--shadow--small);
+
   &:hover {
     background: linear-gradient(
       180deg,
