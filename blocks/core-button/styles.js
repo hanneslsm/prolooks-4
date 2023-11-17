@@ -6,6 +6,11 @@
  * Register block styles
  */
 wp.blocks.registerBlockStyle("core/button", {
+  name: "button-primary",
+  label: "Primary",
+});
+
+wp.blocks.registerBlockStyle("core/button", {
   name: "button-secondary",
   label: "Secondary",
 });
