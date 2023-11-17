@@ -39,7 +39,7 @@ function enqueue_gutenberg_blocks_editor_assets() {
                 wp_get_theme()->get('Version'),
                 true
             );
-        }
+        }    
         
         // Enqueue unregister.js
         $unregister_js_path = $block_folder . '/unregister.js';
@@ -51,7 +51,7 @@ function enqueue_gutenberg_blocks_editor_assets() {
                 wp_get_theme()->get('Version'),
                 true
             );
-        }     
+        }        
 
         // Enqueue styles.js
         $styles_js_path = $block_folder . '/styles.js';
