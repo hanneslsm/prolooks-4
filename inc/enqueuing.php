@@ -29,18 +29,18 @@ function enqueue_gutenberg_blocks_editor_assets() {
     foreach ($block_folders as $block_folder) {
         $block_name = basename($block_folder);
 
-        // Enqueue styles.js
-        $styles_js_path = $block_folder . '/styles.js';
-        if (file_exists($styles_js_path)) {
+        // Enqueue variations.js
+        $variations_js_path = $block_folder . '/variations.js';
+        if (file_exists($variations_js_path)) {
             wp_enqueue_script(
-                'block-' . $block_name . '-styles-js',
-                get_template_directory_uri() . '/blocks/' . $block_name . '/styles.js',
+                'block-' . $block_name . '-variations-js',
+                get_template_directory_uri() . '/blocks/' . $block_name . '/variations.js',
                 array('wp-blocks', 'wp-dom-ready', 'wp-edit-post'),
                 wp_get_theme()->get('Version'),
                 true
             );
         }
-
+        
         // Enqueue unregister.js
         $unregister_js_path = $block_folder . '/unregister.js';
         if (file_exists($unregister_js_path)) {
@@ -51,14 +51,14 @@ function enqueue_gutenberg_blocks_editor_assets() {
                 wp_get_theme()->get('Version'),
                 true
             );
-        }
+        }     
 
-        // Enqueue variations.js
-        $variations_js_path = $block_folder . '/variations.js';
-        if (file_exists($variations_js_path)) {
+        // Enqueue styles.js
+        $styles_js_path = $block_folder . '/styles.js';
+        if (file_exists($styles_js_path)) {
             wp_enqueue_script(
-                'block-' . $block_name . '-variations-js',
-                get_template_directory_uri() . '/blocks/' . $block_name . '/variations.js',
+                'block-' . $block_name . '-styles-js',
+                get_template_directory_uri() . '/blocks/' . $block_name . '/styles.js',
                 array('wp-blocks', 'wp-dom-ready', 'wp-edit-post'),
                 wp_get_theme()->get('Version'),
                 true
