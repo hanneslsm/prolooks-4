@@ -18,9 +18,8 @@
 /**
  * Default
  */
-.is-style-default .wp-block-button__link {
+.is-style-button-primary .wp-block-button__link {
   box-shadow: var(--wp--preset--shadow--small);
-
   &:hover {
     background: linear-gradient(
       180deg,
