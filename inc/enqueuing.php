@@ -11,18 +11,16 @@
 /**
  * Enqueue Stylesheets
 */
-function prolooks_enqueue_styles()
-{
+function prolooks_enqueue_styles() {
     // Enqueue style.css
     wp_enqueue_style('wp-styles', get_stylesheet_uri());
 }
 add_action('wp_enqueue_scripts', 'prolooks_enqueue_styles');
 
-
 /**
  * Enqueue Block specific assets 
  */
-function enqueue_gutenberg_blocks_editor_assets() {
+function enqueue_prolooks_blocks_editor_assets() {
     $blocks_dir = get_template_directory() . '/blocks/';
     $block_folders = glob($blocks_dir . '*', GLOB_ONLYDIR);
 
@@ -76,15 +74,12 @@ function enqueue_gutenberg_blocks_editor_assets() {
         }
     }
 }
-add_action('enqueue_block_editor_assets', 'enqueue_gutenberg_blocks_editor_assets');
-
-
-
+add_action('enqueue_block_editor_assets', 'enqueue_prolooks_blocks_editor_assets');
 
 /**
  * Register block styles 
  */
-function register_gutenberg_blocks_styles() {
+function register_prolooks_blocks_styles() {
     $blocks_dir = get_template_directory() . '/blocks/';
     $block_folders = glob($blocks_dir . '*', GLOB_ONLYDIR);
 
@@ -108,4 +103,19 @@ function register_gutenberg_blocks_styles() {
         }
     }
 }
-add_action('init', 'register_gutenberg_blocks_styles');
+add_action('init', 'register_prolooks_blocks_styles');
+
+// Enqueue CSS assets for both frontend and block editor
+function enqueue_prolooks_styles_and_editor() {
+    $directory = get_template_directory() . '/assets/styles/';
+    $styles = glob($directory . '*.css');
+
+    foreach ($styles as $style) {
+        $file = basename($style);
+        wp_enqueue_style($file, get_template_directory_uri() . '/assets/styles/' . $file);
+        add_editor_style(get_template_directory_uri() . '/assets/styles/' . $file);
+    }
+}
+
+add_action('wp_enqueue_scripts', 'enqueue_prolooks_styles_and_editor'); // For frontend
+add_action('enqueue_block_editor_assets', 'enqueue_prolooks_styles_and_editor'); // For block editor
