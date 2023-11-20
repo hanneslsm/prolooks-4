@@ -1,9 +1,0 @@
-/* Tables
---------------------------------------------- */
-
-.is-style-table-dashed {
-  & td {
-    padding: var(--wp--preset--spacing--xxs) 0px;
-    border-bottom: 1px dashed var(--wp--preset--color--b-dimmer) !important;
-  }
-}
