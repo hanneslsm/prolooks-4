@@ -494,9 +494,7 @@
     "blocks": {
       "core/button": {
         "border": {
-          "radius": {
-            "ref": "settings.custom.border-radius.medium"
-          }
+          "radius": "var(--wp--custom--border-radius--medium)"
         },
         "typography": {
           "lineHeight": "1.2"
@@ -565,9 +563,7 @@
           }
         },
         "border": {
-          "radius": {
-            "ref": "settings.custom.border-radius.medium"
-          }
+          "radius": "var(--wp--custom--border-radius--medium)"
         },
         "color": {
           "background": "var(--wp--preset--color--c-default)",
