@@ -1,0 +1,13 @@
+/** Navigation
+* @since ProLooks 4
+* --------------------------------------------- */
+
+/**
+ * Default
+ */
+.wp-block-navigation a:where(:not(.wp-element-button)) {
+  padding: var(--wp--preset--spacing--x-small) var(--wp--preset--spacing--small) !important;
+}
+
+.wp-block-navigation-item__label {
+}
