@@ -45,6 +45,13 @@ License URL: http://scripts.sil.org/OFL
 Source: https://tribby.com/
 -- End of Barlow Font credits --
 
+Playfair Display Font
+Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display), with Reserved Font Name "Playfair Display". 
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL 
+License URL: http://scripts.sil.org/OFL 
+Source: http://www.forthehearts.net
+-- End of Playfair Display Font credits --
+
 
 HeroIcons
 icons in the assets folder are fom heroicons:
