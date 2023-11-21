@@ -573,7 +573,7 @@
       },
       "h2": {
         "typography": {
-          "fontSize": "2.488rem",
+          "fontSize": "2.488em",
           "lineHeight": "1.2"
         }
       },

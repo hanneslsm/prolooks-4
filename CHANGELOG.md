@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.2.3] - 2023-11-21
+
+- Fix: h2 font sizes to em
+
 ## [4.2.2] - 2023-11-21
 
 - Change: Heading font sizes to em
