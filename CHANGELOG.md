@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.3.1] - 2023-11-21
+
+- Change: Chevron faces to top/bottom
+
 ## [4.2.3] - 2023-11-21
 
 - Fix: h2 font sizes to em

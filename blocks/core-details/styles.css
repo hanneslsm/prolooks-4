@@ -29,7 +29,7 @@ ul {
       display: flex;
       justify-content: center;
       align-items: center;
-      transform: rotate(-90deg); /* chevron faces to the top */
+      transform: rotate(90deg); /* chevron faces to the bottom */
       transition: 0.2s;
 
       padding-bottom: 0.2em;
@@ -43,7 +43,7 @@ ul {
   }
 
   &[open] summary::after {
-    transform: rotate(90deg); /* chevron faces to the bottom */
+    transform: rotate(-90deg); /* chevron faces to the top */
     padding-bottom: 0.2em;
   }
 }
